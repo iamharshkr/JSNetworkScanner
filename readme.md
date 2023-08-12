@@ -27,7 +27,7 @@ JSNetworkScanner is a command-line tool for analyzing JavaScript files on a webs
 
     ```bash
     pip install -r requirements.txt
-### Usage
+## Usage
 Run the script using the following commands:
 
 For a single URL:
