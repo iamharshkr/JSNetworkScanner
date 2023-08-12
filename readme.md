@@ -40,24 +40,24 @@ Run the script using the following commands:
 
 3. For output to a text file:
     ```bash
-    python script_name.py -f urls.txt -o output.txt
+    python JSNetworkScanner.py -f urls.txt -o output.txt
 4. To exclude additional libraries:
     ```bash
     python script_name.py https://example.com -e jquery,moment,axios
 5. Use the -h or --help flag for detailed usage information:
     ```bash
-    python script_name.py -h
+    python JSNetworkScanner.py -h
 ## Examples
 
 1. Analyzing a single website:
     ```bash
-    python script_name.py https://example.com
+    python JSNetworkScanner.py https://example.com
 2. Analyzing multiple websites from a text file and saving the output:
     ```bash
-    python script_name.py -f websites.txt -o results.txt
+    python JSNetworkScanner.py -f websites.txt -o results.txt
 3. Analyzing a website and excluding specific libraries:
     ```bash
-    python script_name.py https://example.com -e jquery,moment,axios
+    python JSNetworkScanner.py https://example.com -e jquery,moment,axios
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
