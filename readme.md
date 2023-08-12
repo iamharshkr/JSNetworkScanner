@@ -60,7 +60,7 @@ Run the script using the following commands:
     python JSNetworkScanner.py https://example.com -e jquery,moment,axios
 
 ## Screenshot
-![screenshot]('ss.png')
+![screenshot](ss.png)
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
