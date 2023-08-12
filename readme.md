@@ -63,8 +63,8 @@ Analyzing a website and excluding specific libraries:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### Credits
-Beautiful Soup\
-jsbeautifier\
+Beautiful Soup \
+jsbeautifier
 
 ### Feedback and Contribution
 Feedback, bug reports, and contributions are welcome! Feel free to open issues or submit pull requests.
