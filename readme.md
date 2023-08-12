@@ -58,6 +58,9 @@ Run the script using the following commands:
 3. Analyzing a website and excluding specific libraries:
     ```bash
     python JSNetworkScanner.py https://example.com -e jquery,moment,axios
+
+## Screenshot
+![screenshot]('ss.png')
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
