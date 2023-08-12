@@ -28,46 +28,45 @@ JSNetworkScanner is a command-line tool for analyzing JavaScript files on a webs
     ```bash
     pip install -r requirements.txt
 ## Usage
+
 Run the script using the following commands:
 
-For a single URL:
-
+1. For a single URL:
+    ```bash
     python JSNetworkScanner.py https://example.com
-
-For URLs from a text file:
-
+2. For URLs from a text file:
+    ```bash
     python JSNetworkScanner.py -f urls.txt
 
-For output to a text file:
-
+3. For output to a text file:
+    ```bash
     python script_name.py -f urls.txt -o output.txt
-To exclude additional libraries:
-
+4. To exclude additional libraries:
+    ```bash
     python script_name.py https://example.com -e jquery,moment,axios
-Use the -h or --help flag for detailed usage information:
-
+5. Use the -h or --help flag for detailed usage information:
+    ```bash
     python script_name.py -h
-Examples
-Analyzing a single website:
+## Examples
 
+1. Analyzing a single website:
+    ```bash
     python script_name.py https://example.com
-Analyzing multiple websites from a text file and saving the output:
-
+2. Analyzing multiple websites from a text file and saving the output:
+    ```bash
     python script_name.py -f websites.txt -o results.txt
-
-Analyzing a website and excluding specific libraries:
-
+3. Analyzing a website and excluding specific libraries:
+    ```bash
     python script_name.py https://example.com -e jquery,moment,axios
-
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Credits
-Beautiful Soup \
-jsbeautifier
+## Credits
+Beautiful Soup\
+jsbeautifier\
 
-### Feedback and Contribution
+## Feedback and Contribution
 Feedback, bug reports, and contributions are welcome! Feel free to open issues or submit pull requests.
 
-Author \
+## Author
 Harsh Kumar
