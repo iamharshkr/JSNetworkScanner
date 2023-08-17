@@ -34,13 +34,11 @@ Run the script using the following commands:
 1. For a single URL:
     ```bash
     python JSNetworkScanner.py https://example.com
-or
-   ```bash
+    # or
     python JSNetworkScanner.py https://example.com/app.js
 2. For URLs from a text file:
     ```bash
     python JSNetworkScanner.py -f urls.txt
-
 3. For output to a text file:
     ```bash
     python JSNetworkScanner.py -f urls.txt -o output.txt
@@ -61,7 +59,6 @@ or
 3. Analyzing a website and excluding specific libraries:
     ```bash
     python JSNetworkScanner.py https://example.com -e jquery,moment,axios
-
 ## Screenshot
 ![screenshot](ss.png)
 ## License
