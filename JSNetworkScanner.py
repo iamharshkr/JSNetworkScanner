@@ -30,9 +30,10 @@ def fetch_js_files(url):
         print(f"Failed to fetch {url}. Status code: {response.status_code}")
         return []
 
+
 def find_requests(js_content):
     request_methods = re.findall(
-        r'\.(get|post|put|delete)\s*\(\s*[\'"](.*?)[\'"]', js_content)
+        r'\.?(get|post|put|delete|fetch|XMLHttpRequest\.open)\s*\(\s*[\'"](.*?)[\'"]', js_content)
     return request_methods
 
 
@@ -115,4 +116,4 @@ if __name__ == "__main__":
                             output_file.write(
                                 f"Failed to fetch {full_js_url}. Status code: {response.status_code}\n")
     except Exception as e:
-        print(e.message)
+        print(e)
