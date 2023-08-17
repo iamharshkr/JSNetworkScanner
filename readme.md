@@ -34,6 +34,9 @@ Run the script using the following commands:
 1. For a single URL:
     ```bash
     python JSNetworkScanner.py https://example.com
+or
+   ```bash
+    python JSNetworkScanner.py https://example.com/app.js
 2. For URLs from a text file:
     ```bash
     python JSNetworkScanner.py -f urls.txt
